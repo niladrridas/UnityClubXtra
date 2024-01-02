@@ -1,0 +1,37 @@
+{
+  "name": "unityclubxtra",
+  "version": "1.0.0",
+  "description": "UnityClubXtra - A blog platform",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "test": "jest",
+    "deploy": "sh deployment/scripts/deploy.sh"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+    // Add other dependencies as needed
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "supertest": "^6.1.6"
+    // Add other dev dependencies as needed
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niladrigithub/UnityClubXtra"
+  },
+  "license": "MIT",
+  "author": "Niladri Das",
+  "private": false,
+  "keywords": [
+    "blog",
+    "platform",
+    "unityclubxtra"
+    // Add other keywords as needed
+  ]
+}
